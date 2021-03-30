@@ -5,6 +5,7 @@ app.get ('/', function(req,res){
     res.send("Bem vindo Matheus")
 })
 
+
 app.listen(3000, function(){
-    console.log("Conexão inicializada na porta 3000")
-})
+    console.log("Conexão inicializada")       
+})  
